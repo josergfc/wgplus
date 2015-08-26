@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<settings>
+	
+  <!-- for detailed info about the settings see http://webgrabplus.com/node/30 -->
+  
+ <filename>epg/guide.xml</filename>
+ <mode>m</mode>
+ <postprocess run="y" grab="y">rex</postprocess>
+ <proxy>automatic</proxy>
+ <user-agent>Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; yie9)</user-agent>
+ <logging>on</logging>
+ <retry time-out="5">4</retry>
+ <skip>noskip</skip>
+ <timespan>1</timespan>
+ <update>i</update>
+
+  <!--Canales de elmundo.es.mp-->
+  
+    <channel update="i" site="elmundo.es.mp" site_id="3" xmltv_id="La 1">La 1</channel>
+    <channel update="i" site="elmundo.es.mp" site_id="4" xmltv_id="La 2">La 2</channel>
+    <channel update="i" site="elmundo.es.mp" site_id="2" xmltv_id="Antena 3">Antena 3</channel>
+    <channel update="i" site="elmundo.es.mp" site_id="496" xmltv_id="Cuatro">Cuatro</channel>
+    <channel update="i" site="elmundo.es.mp" site_id="1" xmltv_id="Telecinco">Telecinco</channel>
+    <channel update="i" site="elmundo.es.mp" site_id="510" xmltv_id="laSexta">laSexta</channel>
+
+</settings>
