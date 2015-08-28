@@ -14,9 +14,9 @@ my $ROMANCE           =    "Romance";
 my $HISTORICAL        =    "Serious / Classical / Religious / Historical movie / Drama";
 my $XXX               =    "Adult movie / Drama";
 
+my $NEWS_MAGAZINE     =    "News magazine";
 my $NEWS              =    "News / Current affairs";
 my $WEATHER           =    "News / Weather report";
-my $NEWS_MAGAZINE     =    "News magazine";
 my $DOCUMENTARY       =    "Documentary";
 my $DEBATE            =    "Discussion / Interview / Debate";
 my $INTERVIEW         =    $DEBATE ;
@@ -155,6 +155,7 @@ my %REPLACE=(
     "Teletienda"           => $SHOPPING ,
     "Política"           => $DEBATE ,
     "Debates"           => $DEBATE ,
+	"Informativos"           => $NEWS ,
     "Otros"           => 0 ,
 
     
