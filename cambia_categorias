@@ -153,6 +153,8 @@ my %REPLACE=(
     "Misterio"           => $THRILLER ,
     "Profesiones"           => $THRILLER , 
     "Teletienda"           => $SHOPPING ,
+    "Política"           => $DEBATE ,
+    "Debates"           => $DEBATE ,
     "Otros"           => 0 ,
 
     
