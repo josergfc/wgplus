@@ -1,5 +1,5 @@
 #!/bin/bash
-xmltv_file_location=/home/pi/wgplus/epg/guide.xml
+xmltv_file_location=/home/pi/wgplus/epg/guiatv.xml
 dflag=
 vflag=
 cflag=
