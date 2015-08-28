@@ -11,16 +11,16 @@
  <logging>on</logging>
  <retry time-out="5">4</retry>
  <skip>noskip</skip>
- <timespan>1</timespan>
+ <timespan>3</timespan>
  <update>i</update>
 
-  <!--Canales de elmundo.es.mp-->
+  <!--Canales de elmundo.es-->
   
-    <channel update="i" site="elmundo.es.mp" site_id="3" xmltv_id="La 1">La 1</channel>
-    <channel update="i" site="elmundo.es.mp" site_id="4" xmltv_id="La 2">La 2</channel>
-    <channel update="i" site="elmundo.es.mp" site_id="2" xmltv_id="Antena 3">Antena 3</channel>
-    <channel update="i" site="elmundo.es.mp" site_id="496" xmltv_id="Cuatro">Cuatro</channel>
-    <channel update="i" site="elmundo.es.mp" site_id="1" xmltv_id="Telecinco">Telecinco</channel>
-    <channel update="i" site="elmundo.es.mp" site_id="510" xmltv_id="laSexta">laSexta</channel>
+    <channel update="i" site="elmundo.es" site_id="3" xmltv_id="La 1">La 1</channel>
+    <channel update="i" site="elmundo.es" site_id="4" xmltv_id="La 2">La 2</channel>
+    <channel update="i" site="elmundo.es" site_id="2" xmltv_id="Antena 3">Antena 3</channel>
+    <channel update="i" site="elmundo.es" site_id="496" xmltv_id="Cuatro">Cuatro</channel>
+    <channel update="i" site="elmundo.es" site_id="1" xmltv_id="Telecinco">Telecinco</channel>
+    <channel update="i" site="elmundo.es" site_id="510" xmltv_id="laSexta">laSexta</channel>
 
 </settings>
