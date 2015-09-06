@@ -1,6 +1,7 @@
 # wgplus 
 
 Integrar WebGrab+Plus en Tvheadend para obtener la EPG.
+
 Asignar logos a cada canal.
 
 Probado en Raspbian Debian Wheezy en una Raspberry Pi Modelo B. 100% funcional.
@@ -48,9 +49,9 @@ Donde XXX es el nombre de la imagen correspondiente al canal.
 Ejemplos:
 
 ```	
-Channels	Number	User Icon
+Channels		Number	User Icon
 
-La 1	1	file:///home/pi/wgplus/logos/1.jpg
-Canal+	7	file:///home/pi/wgplus/logos/2803.jpg
-Canal+ Liga	46	file:///home/pi/wgplus/logos/1281.jpg
+La 1			1		file:///home/pi/wgplus/logos/1.jpg
+Canal+			7		file:///home/pi/wgplus/logos/2803.jpg
+Canal+ Liga		46		file:///home/pi/wgplus/logos/1281.jpg
 ```
