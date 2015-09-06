@@ -4,18 +4,25 @@
   <!-- for detailed info about the settings see http://webgrabplus.com/node/30 -->
   
  <filename>epg/guide.xml</filename>
- <mode>m</mode>
+ <mode>m,n</mode>
  <postprocess run="y" grab="y">rex</postprocess>
  <proxy>automatic</proxy>
  <user-agent>Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; yie9)</user-agent>
  <logging>on</logging>
  <retry time-out="5">4</retry>
  <skip>noskip</skip>
- <timespan>6</timespan>
- <update></update>
+ <timespan>1</timespan>
+ <update></update> 
+	
+	<!--Canales promocionales-->
 
- 	<!--Canales de plus.es-->
-  
+	<channel update="f" site="movistar" site_id="xx" xmltv_id="Movistar+">Movistar+</channel>
+	<channel update="f" site="series" site_id="xx" xmltv_id="SERIES">SERIES</channel>
+	<channel update="f" site="cine" site_id="xx" xmltv_id="CINE">CINE</channel>
+	<channel update="f" site="deportes" site_id="xx" xmltv_id="DEPORTES">DEPORTES</channel>	
+	
+	<!--Canales de plus.es-->
+
     <channel update="i" site="plus.es" site_id="TVE" xmltv_id="LA 1">LA 1</channel>
     <channel update="i" site="plus.es" site_id="LA2" xmltv_id="LA 2">LA 2</channel>
     <channel update="i" site="plus.es" site_id="A3" xmltv_id="Antena 3">Antena 3</channel>
@@ -24,8 +31,8 @@
     <channel update="i" site="plus.es" site_id="SEXTA" xmltv_id="La Sexta">La Sexta</channel>
     <channel update="i" site="plus.es" site_id="MV3" xmltv_id="C+">C+</channel>
     <channel update="i" site="plus.es" site_id="CPSER" xmltv_id="C+ Series">C+ Series</channel>
-    <channel update="i" site="plus.es" site_id="MV2" xmltv_id="C+ Series Xtra">C+ Series Xtra</channel>
-    <channel update="i" site="plus.es" site_id="FOXGE" xmltv_id="Fox">Fox</channel>
+    <channel update="i" site="plus.es" site_id="MV2" xmltv_id="C+ Series Xtra">C+ Series Xtra</channel>	
+	<channel update="i" site="plus.es" site_id="FOXGE" xmltv_id="Fox">Fox</channel>
     <channel update="i" site="plus.es" site_id="AXN" xmltv_id="AXN">AXN</channel>
     <channel update="i" site="plus.es" site_id="TNT" xmltv_id="TNT">TNT</channel>
     <channel update="i" site="plus.es" site_id="PCM" xmltv_id="Comedy Central">Comedy Central</channel>
@@ -48,7 +55,10 @@
     <channel update="i" site="plus.es" site_id="HOLLYW" xmltv_id="Hollywood">Hollywood</channel>
     <channel update="i" site="plus.es" site_id="PARCH" xmltv_id="Paramount Channel">Paramount Channel</channel>
     <channel update="i" site="plus.es" site_id="CPLIGA" xmltv_id="C+ Liga">C+ Liga</channel>
+    <channel update="i" site="plus.es" site_id="CPPART" xmltv_id="C+ Partidazo">C+ Partidazo</channel>
+    <channel update="i" site="plus.es" site_id="CPLI2" xmltv_id="C+ Liga 2">C+ Liga 2</channel>
     <channel update="i" site="plus.es" site_id="CPFUT" xmltv_id="C+ Fútbol">C+ Fútbol</channel>
+    <!--Futbol Replay-->
     <channel update="i" site="plus.es" site_id="CPLIG2" xmltv_id="C+ Liga Multi">C+ Liga Multi</channel>
     <channel update="i" site="plus.es" site_id="REALM" xmltv_id="Real Madrid TV">Real Madrid TV</channel>
     <channel update="i" site="plus.es" site_id="BARNA" xmltv_id="Barça TV">Barça TV</channel>
@@ -57,19 +67,18 @@
     <channel update="i" site="plus.es" site_id="MVF1" xmltv_id="Movistar Fórmula1">Movistar Fórmula1</channel>
     <channel update="i" site="plus.es" site_id="MVMTGP" xmltv_id="Movistar Moto GP">Movistar Moto GP</channel>
     <channel update="i" site="plus.es" site_id="GOLF+" xmltv_id="C+ Golf">C+ Golf</channel>
-    <channel update="i" site="plus.es" site_id="ARTHUR" xmltv_id="Multideporte 1">Multideporte 1</channel>
+    <channel update="i" site="plus.es" site_id="ARTHUR" xmltv_id="Multideporte 1">Multideporte 1</channel>    
     <channel update="i" site="plus.es" site_id="TDEP" xmltv_id="Teledeporte">Teledeporte</channel>
     <channel update="i" site="plus.es" site_id="CAZPES" xmltv_id="Caza y Pesca">Caza y Pesca</channel>
     <channel update="i" site="plus.es" site_id="CFERIA" xmltv_id="C+ Toros">C+ Toros</channel>
     <channel update="i" site="plus.es" site_id="NATGEO" xmltv_id="Nat Geographic">Nat Geographic</channel>
     <channel update="i" site="plus.es" site_id="NATGW" xmltv_id="Nat Geo Wild">Nat Geo Wild</channel>
-    <channel update="i" site="plus.es" site_id="HIST" xmltv_id="Historia">Historia</channel>
+    <channel update="i" site="plus.es" site_id="HIST" xmltv_id="Historia">Historia</channel>    
     <channel update="i" site="plus.es" site_id="ODISEA" xmltv_id="Odisea">Odisea</channel>
     <channel update="i" site="plus.es" site_id="BIOGRA" xmltv_id="A&amp;E">A&amp;E</channel>
     <channel update="i" site="plus.es" site_id="VJR" xmltv_id="Viajar">Viajar</channel>
     <channel update="i" site="plus.es" site_id="DCRMAX" xmltv_id="Discovery Max">Discovery Max</channel>
     <channel update="i" site="plus.es" site_id="CACOC" xmltv_id="Canal Cocina">Canal Cocina</channel>
-    <channel update="i" site="plus.es" site_id="DECASA" xmltv_id="Canal Decasa">Canal Decasa</channel>
     <channel update="i" site="plus.es" site_id="FASH" xmltv_id="FashionTV">FashionTV</channel>
     <channel update="i" site="plus.es" site_id="DIVINI" xmltv_id="Divinity">Divinity</channel>
     <channel update="i" site="plus.es" site_id="NOVA" xmltv_id="Nova">Nova</channel>
@@ -89,7 +98,8 @@
     <channel update="i" site="plus.es" site_id="VH1" xmltv_id="VH1">VH1</channel>
     <channel update="i" site="plus.es" site_id="M2" xmltv_id="MTV ROCKS">MTV ROCKS</channel>
     <channel update="i" site="plus.es" site_id="MEZZO" xmltv_id="Mezzo">Mezzo</channel>
-    <channel update="i" site="plus.es" site_id="PBOY" xmltv_id="Playboy TV">Playboy TV</channel>
+	<!--Classica-->    
+    <channel update="i" site="plus.es" site_id="PBOY" xmltv_id="Playboy TV">Playboy TV</channel>    
     <channel update="i" site="plus.es" site_id="24H" xmltv_id="24 Horas">24 Horas</channel>
     <channel update="i" site="plus.es" site_id="BBC" xmltv_id="BBC World">BBC World</channel>
     <channel update="i" site="plus.es" site_id="CNN" xmltv_id="CNN Int">CNN Int</channel>
@@ -100,7 +110,7 @@
     <channel update="i" site="plus.es" site_id="RTESP" xmltv_id="RT Español">RT Español</channel>
     <channel update="i" site="plus.es" site_id="NBC" xmltv_id="CNBC">CNBC</channel>
     <channel update="i" site="plus.es" site_id="TV5" xmltv_id="TV5MONDE">TV5MONDE</channel>
-    <channel update="i" site="plus.es" site_id="BL" xmltv_id="Bloomberg">Bloomberg</channel>
+    <channel update="i" site="plus.es" site_id="BL" xmltv_id="Bloomberg">Bloomberg</channel>    
     <channel update="i" site="plus.es" site_id="SKYNW" xmltv_id="Sky News">Sky News</channel>
     <channel update="i" site="plus.es" site_id="RUSSIA" xmltv_id="RT">RT</channel>
     <channel update="i" site="plus.es" site_id="TVIINT" xmltv_id="TVI Internacional">TVI Internacional</channel>
@@ -110,27 +120,77 @@
     <channel update="i" site="plus.es" site_id="TVREC" xmltv_id="TV RECORD">TV RECORD</channel>
     <channel update="i" site="plus.es" site_id="CUBAV" xmltv_id="Cubavisión">Cubavisión</channel>
     <channel update="i" site="plus.es" site_id="TLESUR" xmltv_id="Telesur">Telesur</channel>
-    <channel update="i" site="plus.es" site_id="ARIRAN" xmltv_id="ARIRANG TV">ARIRANG TV</channel>
+    <channel update="i" site="plus.es" site_id="ARIRAN" xmltv_id="ARIRANG TV">ARIRANG TV</channel>    
     <channel update="i" site="plus.es" site_id="NHK" xmltv_id="NHK World">NHK World</channel>
     <channel update="i" site="plus.es" site_id="ANTV" xmltv_id="Canal Sur Andalucía">Canal Sur Andalucía</channel>
     <channel update="i" site="plus.es" site_id="TVG" xmltv_id="TV Galicia">TV Galicia</channel>
-    <channel update="i" site="plus.es" site_id="TQ1" xmltv_id="Taquilla 1">Taquilla 1</channel>
-    <channel update="i" site="plus.es" site_id="TQ2" xmltv_id="Taquilla 2">Taquilla 2</channel>
-    <channel update="i" site="plus.es" site_id="TQ3" xmltv_id="Taquilla 3">Taquilla 3</channel>
-    <channel update="i" site="plus.es" site_id="TQ4" xmltv_id="Taquilla 4">Taquilla 4</channel>
-    <channel update="i" site="plus.es" site_id="TQ5" xmltv_id="Taquilla 5">Taquilla 5</channel>
-    <channel update="i" site="plus.es" site_id="TQ6" xmltv_id="Taquilla 6">Taquilla 6</channel>
-    <channel update="i" site="plus.es" site_id="TQ7" xmltv_id="Taquilla 7">Taquilla 7</channel>
     <channel update="i" site="plus.es" site_id="USOP2" xmltv_id="Multideporte 2">Multideporte 2</channel>
     <channel update="i" site="plus.es" site_id="USOP3" xmltv_id="Multideporte 3">Multideporte 3</channel>
     <channel update="i" site="plus.es" site_id="USOP11" xmltv_id="Multideporte 4">Multideporte 4</channel>
     <channel update="i" site="plus.es" site_id="MULTI5" xmltv_id="Multideporte 5">Multideporte 5</channel>
     <channel update="i" site="plus.es" site_id="MULTI6" xmltv_id="Multideporte 6">Multideporte 6</channel>
-    <channel update="i" site="plus.es" site_id="MUTI7" xmltv_id="Multideporte 7">Multideporte 7</channel>
-    <channel update="i" site="plus.es" site_id="CP3D" xmltv_id="C+ 3D">C+ 3D</channel>
+    <channel update="i" site="plus.es" site_id="MUTI7" xmltv_id="Multideporte 7">Multideporte 7</channel>    
+
+	<!--Canales de sincroguia.tv.mp-->
+
+    <channel update="i" site="sincroguia.tv.mp" site_id="30" xmltv_id="Canal Sur">Canal Sur</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="31" xmltv_id="Canal Sur 2">Canal Sur 2</channel> 
+    <channel update="i" site="sincroguia.tv.mp" site_id="37" xmltv_id="Galicia TV">Galicia TV</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="32" xmltv_id="Andalucía TV">Andalucía TV</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="39" xmltv_id="La Otra">La Otra</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="38" xmltv_id="Telemadrid">Telemadrid</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="43" xmltv_id="TV3">TV3</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="243" xmltv_id="8tv">8tv</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="672" xmltv_id="Esport 3">Esport 3</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="449" xmltv_id="3/24">3/24</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="504" xmltv_id="Super3-3XL">Super3-3XL</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="541" xmltv_id="33">33</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="34" xmltv_id="ETB 2">ETB 2</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="33" xmltv_id="ETB 1">ETB 1</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="41" xmltv_id="TelevisiónCanaria">TelevisiónCanaria</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="296" xmltv_id="Castilla - La Mancha TV">Castilla - La Mancha TV</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="519" xmltv_id="IB3">IB3</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="522" xmltv_id="Aragón Televisión">Aragón Televisión</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="551" xmltv_id="7 Región de Murcia">7 Región de Murcia</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="521" xmltv_id="TPA">TPA</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="582" xmltv_id="Canal Extremadura TV">Canal Extremadura TV</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="324" xmltv_id="CyLTV">CyLTV</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="572" xmltv_id="Decasa">Decasa</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="699" xmltv_id="Sundance Channel">Sundance Channel</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="654" xmltv_id="Iberalia">Iberalia Sincro</channel> 
+    <channel update="i" site="sincroguia.tv.mp" site_id="146" xmltv_id="Discovery Channel">Discovery Channel</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="619" xmltv_id="CCTV E">CCTV E</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="691" xmltv_id="Crimen &amp; Investigación">Crimen &amp; Investigación</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="516" xmltv_id="Intereconomía TV">Intereconomía TV</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="689" xmltv_id="13tv">13tv</channel>
+	<channel update="i" site="sincroguia.tv.mp" site_id="616" xmltv_id="Telefé Internacional">Telefé Internacional</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="566" xmltv_id="Caracol TV">Caracol TV</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="416" xmltv_id="TV Chile">TV Chile</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="613" xmltv_id="TV Colombia">TV Colombia</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="607" xmltv_id="Azteca Internacional TV">Azteca Internacional TV</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="631" xmltv_id="Phoenix CNE">Phoenix CNE</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="630" xmltv_id="Phoenix Infonews">Phoenix Infonews</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="47" xmltv_id="TV3CAT">TV3CAT</channel>
+    <channel update="i" site="sincroguia.tv.mp" site_id="35" xmltv_id="ETB Sat">ETB Sat</channel>
+
+	<!--Canales de elpais.com-->
+   
+    <channel update="i" site="elpais.com" site_id="la-tienda-en-casa" xmltv_id="La tienda en casa">La tienda en casa</channel>
+
+	<!--Canales de elmundo.es.mp-->
+
+    <channel update="i" site="elmundo.es" site_id="481" xmltv_id="AMC">AMC</channel>	
+    <channel update="i" site="elmundo.es" site_id="663" xmltv_id="Mega">Mega</channel>	
+    <channel update="i" site="elmundo.es" site_id="154" xmltv_id="Eurosport">Eurosport</channel>
+    <channel update="i" site="elmundo.es" site_id="491" xmltv_id="Eurosport 2">Eurosport 2</channel>
+
+	<!--Canales de laguiatv.abc.es-->
+
+    <channel update="i" site="laguiatv.abc.es" site_id="canal-liga-2-a-735" xmltv_id="Canal+ Liga 2 A">Canal+ Liga 2 A</channel>
+    <channel update="i" site="laguiatv.abc.es" site_id="canal-liga-2-b-736" xmltv_id="Canal+ Liga 2 B">Canal+ Liga 2 B</channel>
+    <channel update="i" site="laguiatv.abc.es" site_id="canal-liga-2-c-737" xmltv_id="Canal+ Liga 2 C">Canal+ Liga 2 C</channel>
+    <channel update="i" site="laguiatv.abc.es" site_id="canal-liga-2-d-738" xmltv_id="Canal+ Liga 2 D">Canal+ Liga 2 D</channel>
+    <channel update="i" site="laguiatv.abc.es" site_id="canal-liga-2-e-739" xmltv_id="Canal+ Liga 2 E">Canal+ Liga 2 E</channel>
+
     
-	<!--Canales de elmundo.es-->
-
-
-
 </settings>
